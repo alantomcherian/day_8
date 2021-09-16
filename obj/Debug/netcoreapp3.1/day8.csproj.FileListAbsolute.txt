@@ -1,0 +1,13 @@
+D:\csharp\day8\bin\Debug\netcoreapp3.1\day8.exe
+D:\csharp\day8\bin\Debug\netcoreapp3.1\day8.deps.json
+D:\csharp\day8\bin\Debug\netcoreapp3.1\day8.runtimeconfig.json
+D:\csharp\day8\bin\Debug\netcoreapp3.1\day8.runtimeconfig.dev.json
+D:\csharp\day8\bin\Debug\netcoreapp3.1\day8.dll
+D:\csharp\day8\bin\Debug\netcoreapp3.1\day8.pdb
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.csproj.AssemblyReference.cache
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.AssemblyInfoInputs.cache
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.AssemblyInfo.cs
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.csproj.CoreCompileInputs.cache
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.dll
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.pdb
+D:\csharp\day8\obj\Debug\netcoreapp3.1\day8.genruntimeconfig.cache
