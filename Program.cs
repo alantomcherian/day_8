@@ -36,9 +36,13 @@ namespace day8
             {
                 Console.WriteLine("both lines are equal");
             }
+            else if (l1 > l2)
+            {
+                Console.WriteLine("l1 is greater than l2");
+            }
             else
             {
-                Console.WriteLine("both lines are not equal");
+                Console.WriteLine("l1 is lesser than l2");
             }
         }
     }
