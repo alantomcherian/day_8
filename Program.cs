@@ -4,46 +4,36 @@ namespace day8
 {
     class Program
     {
-        static void Main(string[] args)
+        public static float LineLength (int a,int b,int c,int d)
         {
-            Console.WriteLine("enter coordinates of line1 (x1) ::");
-            int x1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter coordinates of line1 (y1) ::");
-            int y1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter coordinates of line1 (x2) ::");
-            int x2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter coordinates of line1 (y2) ::");
-            int y2 = int.Parse(Console.ReadLine());
-            int a = (int)Math.Pow(x2 - x1, 2);
-            int b = (int)Math.Pow(y2 - y1, 2);
-            float l1 = (float)Math.Sqrt(a + b);
-            Console.WriteLine(l1);
+            int x = (int)Math.Pow(c - a, 2);
+            int y = (int)Math.Pow(d - b, 2);
+            float l = (float)Math.Sqrt(x + y);
+            Console.WriteLine("Length of line is :" + l);
+            return l;
+            
+        }
 
-            Console.WriteLine("enter coordinates of line2 (x3) ::");
-            int x3 = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter coordinates of line2 (y3) ::");
-            int y3 = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter coordinates of line2 (x4) ::");
-            int x4 = int.Parse(Console.ReadLine());
-            Console.WriteLine("enter coordinates of line2 (y4) ::");
-            int y4 = int.Parse(Console.ReadLine());
-            int c = (int)Math.Pow(x4 - x3, 2);
-            int d = (int)Math.Pow(y4 - y3, 2);
-            float l2 = (float)Math.Sqrt(c + d);
-            Console.WriteLine(l2);
-
+        public static void LineCompare (float l1, float l2)
+        {
             if (l1 == l2)
             {
                 Console.WriteLine("both lines are equal");
             }
             else if (l1 > l2)
             {
-                Console.WriteLine("l1 is greater than l2");
+                Console.WriteLine("line 1 is greater than line 2");
             }
             else
             {
-                Console.WriteLine("l1 is lesser than l2");
+                Console.WriteLine("line 1 is lesser than line 2");
             }
+        }
+        static void Main(string[] args)
+        {
+            float a = LineLength(5, 6, 7, 5);
+            float b = LineLength(3, 4, 7, 5);
+            LineCompare(a, b);
         }
     }
 }
